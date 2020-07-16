@@ -1,5 +1,6 @@
 body {
    margin: 0px; 
+   overflow-x: hidden;
 }
 
 .container {
@@ -74,8 +75,10 @@ body {
 }
 
 .logo-wrapper img {
-    width: 50%;
-    margin-bottom: 20px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }
 
 .img-text-wrapper .subtitle {
